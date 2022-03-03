@@ -1,3 +1,1 @@
-print (xd
-
-)
+print (xd asdas)
