@@ -1,0 +1,4 @@
+git status # pokazuje aktualną sytuację połączenia i plików, a także stage (czyli takie pośrednie miejsce między kompem a gitem)
+git add . # dodaje zmianę na wszystkich użytkownikach do staga
+git push # puszcza zmianę na repozytorium
+git pull # ściąga zmiany z repozytorium
