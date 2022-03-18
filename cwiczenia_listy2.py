@@ -16,5 +16,11 @@
 #print ('największy element to', najwiekszy_element)
 #-------------------------------------------------------------------------
 
-set = {1,2,3,4,5}
-print (set, type(set))
+#set = {1,2,3,4,5} #zmienna typu set - pozwala tworzyć unikalne elementy
+#print (set, type(set))
+
+#-------------------------------------------------------------------------
+lista = ['a', 'b', 'c', 'c', 'd', 'd', 'd']
+set_z_listy = list(set(lista))
+
+print(set_z_listy)
