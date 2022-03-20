@@ -8,9 +8,10 @@
 
 #print(element) #teraz indeks jest ustawiony na element '0' więc wydrukuje literę 'a'
 #---------------------------------------------------------------------
-string = 'ala ma kota'
-lista_1 = ['a', 'l', 'a', ' ', 'm', 'a', ' ', 'k', 'o', 't', 'a']
-lista_2 = ['ala', ' ', 'ma', ' ', 'kota']
+
+#string = 'ala ma kota'
+#lista_1 = ['a', 'l', 'a', ' ', 'm', 'a', ' ', 'k', 'o', 't', 'a']
+#lista_2 = ['ala', ' ', 'ma', ' ', 'kota']
 
 #indeks = -1 #jeżeli damy wartość -1 to pokaże nam ostatni element listy
 
@@ -19,6 +20,17 @@ lista_2 = ['ala', ' ', 'ma', ' ', 'kota']
 
 #oddo = lista_2[1:5] #printuje słowa / litery / znaki w tym zakresie
 
-print (oddo)
+#print (oddo)
 
 #---------------------------------------------------------------------
+
+lista = ['a','b','c','d','e','f','g','h','i','j']
+print('Lista przed odwróceniem:', lista)
+
+lista2 = lista[::-1] #ten nawias powoduje odwrócenie listy to jak polecenie reverse 
+print('\nPo odwróceniu:') #znak /n robi taki enter
+print('Stara lista:            ', lista) #w momencie gdy cudzysłów przesuniemy spacjami printuje nam się to ładnie oddzielone
+print('Nowa odwrócona lista:   ', lista2)
+
+lista.reverse() #tak samo odwraca listę 
+print('lista_z_reversem        ', lista)
