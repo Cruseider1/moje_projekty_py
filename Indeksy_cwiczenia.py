@@ -12,6 +12,13 @@ string = 'ala ma kota'
 lista_1 = ['a', 'l', 'a', ' ', 'm', 'a', ' ', 'k', 'o', 't', 'a']
 lista_2 = ['ala', ' ', 'ma', ' ', 'kota']
 
-indeks = 2
-print (string[indeks])
-print (lista_1[indeks])
+#indeks = -1 #jeżeli damy wartość -1 to pokaże nam ostatni element listy
+
+#print (string[indeks])
+#print(lista_2[indeks])
+
+#oddo = lista_2[1:5] #printuje słowa / litery / znaki w tym zakresie
+
+print (oddo)
+
+#---------------------------------------------------------------------
