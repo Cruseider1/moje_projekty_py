@@ -24,13 +24,20 @@
 
 #---------------------------------------------------------------------
 
-lista = ['a','b','c','d','e','f','g','h','i','j']
-print('Lista przed odwróceniem:', lista)
+#lista = ['a','b','c','d','e','f','g','h','i','j']
+#print('Lista przed odwróceniem:', lista)
 
-lista2 = lista[::-1] #ten nawias powoduje odwrócenie listy to jak polecenie reverse 
-print('\nPo odwróceniu:') #znak /n robi taki enter
-print('Stara lista:            ', lista) #w momencie gdy cudzysłów przesuniemy spacjami printuje nam się to ładnie oddzielone
-print('Nowa odwrócona lista:   ', lista2)
+#lista2 = lista[::-1] #ten nawias powoduje odwrócenie listy to jak polecenie reverse 
+#print('\nPo odwróceniu:') #znak /n robi taki enter
+#print('Stara lista:            ', lista) #w momencie gdy cudzysłów przesuniemy spacjami printuje nam się to ładnie oddzielone
+#print('Nowa odwrócona lista:   ', lista2)
 
-lista.reverse() #tak samo odwraca listę 
-print('lista_z_reversem        ', lista)
+#lista.reverse() #tak samo odwraca listę 
+#print('lista_z_reversem        ', lista)
+#---------------------------------------------------------------------
+
+lista = [1, 2, 3]
+print('Lista przed zmianą wartości jednego z elementów', lista)
+
+lista[2] = 'xD' #zmiana wartości w kwadratowym nawiasie to zmiana wartości indeksu co powoduje przesunięcie xd w prawo lub lewo
+print('Lista po zmianie wartości jednego z elementów  ', lista)
