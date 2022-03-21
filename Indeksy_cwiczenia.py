@@ -36,8 +36,35 @@
 #print('lista_z_reversem        ', lista)
 #---------------------------------------------------------------------
 
-lista = [1, 2, 3]
-print('Lista przed zmianą wartości jednego z elementów', lista)
+#lista = [1, 2, 3,1,1,1,2]
 
-lista[2] = 'xD' #zmiana wartości w kwadratowym nawiasie to zmiana wartości indeksu co powoduje przesunięcie xd w prawo lub lewo
-print('Lista po zmianie wartości jednego z elementów  ', lista)
+#policz = lista.count(1) #ta funkcja liczy ile jest jedynek w liście powyższej, oczywiście trzeba tylko podmienić zmienną poniżej w kodzie
+#print('Lista przed zmianą wartości jednego z elementów', lista)
+
+#lista[2] = 'xD' #zmiana wartości w kwadratowym nawiasie to zmiana wartości indeksu co powoduje przesunięcie xd w prawo lub lewo
+#print('Lista po zmianie wartości jednego z elementów  ', lista)
+
+####lista.clear() tym poleceniem czyścimy listy z elementów np. pusta = lista.clear()
+####''.join(lista) tym poleceniem łączymy elementy w liście usuwając znaki ''
+
+
+#---------------------------------------------------------------------  
+
+#lista = ['a', 'b']
+#print(lista)
+
+#lista = lista * 2 # 3, 4, 5
+#print(lista) #wynik to a,b, a, b więc można mnożyć nie tylko liczby
+
+#---------------------------------------------------------------------
+
+#lista_z_kotkiem = [1, 2, 'kotek', 3, 4, 5]
+#lista_bez_kotka = [1, 2, 3, 4, 5]
+
+#lista = lista_z_kotkiem
+#szukany_element_w_liscie = 'kotek'
+#if szukany_element_w_liscie in lista: #if i in - to polecenie pozwala nam sprawdzić czy dany element znajduje się w liście która nas interesuje
+#    print('kotek')
+
+
+#---------------------------------------------------------------------
