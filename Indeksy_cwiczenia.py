@@ -45,8 +45,8 @@
 #print('Lista po zmianie wartości jednego z elementów  ', lista)
 
 ####lista.clear() tym poleceniem czyścimy listy z elementów np. pusta = lista.clear()
-####''.join(lista) tym poleceniem łączymy elementy w liście usuwając znaki ''
-
+####''.join(lista) tym poleceniem łączymy elementy w liście usuwając znaki '' jeśli są to słowa np. Ala ma kota to robią '' będzie Alamakota więc trzeba wstawić 1 spację w ' ' i będzie poprawnie
+### list.copy() - jeśli chcemy skopiować listę a i sprawić aby każdy nowy element dodany do listy a nie był w liście b
 
 #---------------------------------------------------------------------  
 
@@ -67,4 +67,22 @@
 #    print('kotek')
 
 
+#---------------------------------------------------------------------
+
+#lista_int = [4, 3, 1]
+#print(lista_int)
+
+#lista_int.sort() # w ten sposób sortuje się lista rosnąco, żeby sortowała się malejąco należy wpisać w nawias (reverse=True)
+#lista_nowa = sorted(lista, reverse=True) #Sort od Sorted różni się tym, że sorted tworzy nowy elemenet teraz można byłoby wyprintować lista_int i osobno lista_nowa (tak samo można użyć reverse=true w sorted)
+
+
+#print(lista_int)
+
+#---------------------------------------------------------------------
+
+lista_a = [1, 2]
+lista_b = [1, 2]
+if lista_a == lista_b:
+    print('Listy są identyczne.')
+    
 #---------------------------------------------------------------------
