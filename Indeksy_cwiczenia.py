@@ -81,8 +81,17 @@
 #---------------------------------------------------------------------
 
 lista_a = [1, 2]
-lista_b = [1, 2]
+lista_b = [1, 2,3]
 if lista_a == lista_b:
     print('Listy są identyczne.')
-    
+else: 
+    print('nie ma tego elementu')
+#---------------------------------------------------------------------
+
+# lista = ['a', 'b', 'c', 'b', 'z', 'b']
+
+# szukany_element = 'a' #tworzymy zmienną szukany element i podajemy wartość z listy stringów
+# i = lista.index( szukany_element) #zmienna i przybierz wartość szukanego indeksu
+# print('Szukany element jest na indexie:',i)
+
 #---------------------------------------------------------------------
