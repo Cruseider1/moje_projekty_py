@@ -80,12 +80,12 @@
 
 #---------------------------------------------------------------------
 
-lista_a = [1, 2]
-lista_b = [1, 2,3]
-if lista_a == lista_b:
-    print('Listy są identyczne.')
-else: 
-    print('nie ma tego elementu')
+# lista_a = [1, 2]
+# lista_b = [1, 2,3]
+# if lista_a == lista_b:
+#     print('Listy są identyczne.')
+# else: 
+#     print('nie ma tego elementu')
 #---------------------------------------------------------------------
 
 # lista = ['a', 'b', 'c', 'b', 'z', 'b']
@@ -95,3 +95,26 @@ else:
 # print('Szukany element jest na indexie:',i)
 
 #---------------------------------------------------------------------
+
+#fory i loopy 
+#lista = [1, 2, 3]
+# for i in lista:
+#     print(i*2)
+
+# for i in [1,2,3]:
+#     print('Element "i" z pierwszej listy:', i)
+#     for j in ['a', 'b', 'c']:
+#         print('Litera z drugiej listy:', j)
+#         for z in ['xD', '^_^', ':O']:
+#             print('Buźka:', z)
+#         print('----------------')
+
+#---------------------------------------------------------------------
+
+#enumerate Dzięki enumerate indeks każdego z elementów listy można wyciągnąć do zmiennej
+
+
+lista = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+
+for i, element in enumerate(lista): #jest for 'i,element' bo i oznacza zmienną indeks a element stringi w liście 
+    print(i)
