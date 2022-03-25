@@ -150,12 +150,31 @@
 #         print('xD')
 #---------------------------------------------------------------------
 
-import itertools
-# Define a list of the number of carrots picked across several days
-carrotsPickedToday = [3, 5, 0, 6, 0, 1]
-# Calculate the sum of the numbers in carrotsPickedToday using accumulate()
-# Notice that only carrotsPickedToday has been passed to accumulate() - as the function is optional, it will default to summing the values in the supplied list
-result = itertools.accumulate(carrotsPickedToday)
-# Print the result - it will be a list!
-for item in result:
-    print(item)
+# import itertools
+# # Define a list of the number of carrots picked across several days
+# carrotsPickedToday = [3, 5, 0, 6, 0, 1]
+# # Calculate the sum of the numbers in carrotsPickedToday using accumulate()
+# # Notice that only carrotsPickedToday has been passed to accumulate() - as the function is optional, it will default to summing the values in the supplied list
+# result = itertools.accumulate(carrotsPickedToday)
+# # Print the result - it will be a list!
+# for item in result:
+#     print(item)
+
+#---------------------------------------------------------------------
+# import itertools
+# lista = [1,2,3,5,6,7,8,9]
+
+# lista2 = itertools.repeat(lista) #w przypadku napisania wirusa może zawalić pamięć.
+
+# for i in lista2:
+#     print(i)
+#---------------------------------------------------------------------
+# from itertools import permutations
+ 
+# # Get all permutations of [1, 2, 3]
+# perm = permutations([1, 2, 3, 4, 5, 6, 7, 8, 9])
+ 
+# # Print the obtained permutations
+# for i in list(perm):
+#     print (i)
+#---------------------------------------------------------------------
