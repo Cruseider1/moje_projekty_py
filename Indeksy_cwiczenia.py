@@ -114,7 +114,38 @@
 #enumerate Dzięki enumerate indeks każdego z elementów listy można wyciągnąć do zmiennej
 
 
-lista = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+# lista = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 
-for i, element in enumerate(lista): #jest for 'i,element' bo i oznacza zmienną indeks a element stringi w liście 
-    print(i)
+# for i, element in enumerate(lista): #jest for 'i,element' bo i oznacza zmienną indeks a element stringi w liście 
+#     print(i)
+
+#---------------------------------------------------------------------
+
+# numbers = [1, 2, 3, 5, 7]
+# letters = ['a', 'b', 'c']
+# z = zip(numbers, letters) #zip łączy ze sobą element pierwszy z pierwszym z drugiej listy 
+# z = list(z) #list sprawia że połączone elementy printują się jako lista. 
+
+# print(z)
+
+#---------------------------------------------------------------------
+
+# lista_1 = [1,2,3,4,5,6,7]
+# lista_2 = []
+# for i in lista_1:
+#     if i <= 3:
+#         lista_2.append(i)
+# print(lista_2)
+
+#---------------------------------------------------------------------
+# from itertools import count 
+
+# c = count(1,4) # będzie printował co 4 i w zakresie miedzy 10 a 20 wrzuci dwa xd bo printuje to jako osobną liste. 
+
+# for i in c:
+#     print(i)
+#     if i > 100:
+#         break
+#     if i in range(10, 20):
+#         print('xD')
+#---------------------------------------------------------------------
