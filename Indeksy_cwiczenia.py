@@ -149,3 +149,13 @@
 #     if i in range(10, 20):
 #         print('xD')
 #---------------------------------------------------------------------
+
+import itertools
+# Define a list of the number of carrots picked across several days
+carrotsPickedToday = [3, 5, 0, 6, 0, 1]
+# Calculate the sum of the numbers in carrotsPickedToday using accumulate()
+# Notice that only carrotsPickedToday has been passed to accumulate() - as the function is optional, it will default to summing the values in the supplied list
+result = itertools.accumulate(carrotsPickedToday)
+# Print the result - it will be a list!
+for item in result:
+    print(item)
