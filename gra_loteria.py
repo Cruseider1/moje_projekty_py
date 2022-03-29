@@ -23,4 +23,4 @@ while play == str("tak"):
     given.clear()
     lottery.clear()
 
-    gramy = input ("czy chcesz zagrać jeszcze raz (tak/nie) ")
+    play = input ("czy chcesz zagrać jeszcze raz (tak/nie) ")
