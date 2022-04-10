@@ -22,3 +22,23 @@
 #     print('to inna wartość')
 
 #------------------------------------------------------
+# y = 'abc'
+# x = 'a'
+# if x in y:
+#     print("x zawiera się w y. Czyli 'a' zawiera się w 'abc.")
+
+#------------------------------------------------------
+x = 1
+y = 3
+
+if x == 1:
+    print(x)
+    if y == 2:
+        print(y)
+    elif x+y > 2:
+        print('y zmieniło wartość, to już nie 2 ale', y)
+        if x == 1 and y <= 10:
+            print('ale y jest nadal mniejsze od 10.')
+else:
+    print('x zmieniło wartość, to już nie 1 ale', x)
+    print('do y w ogóle tu nie docieramy. Zmień x na 1 aby dotrzeć do rozwidlenia z x.')
