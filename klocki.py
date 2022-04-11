@@ -28,17 +28,41 @@
 #     print("x zawiera się w y. Czyli 'a' zawiera się w 'abc.")
 
 #------------------------------------------------------
-x = 1
-y = 3
+# x = 1
+# y = 3
 
-if x == 1:
-    print(x)
-    if y == 2:
-        print(y)
-    elif x+y > 2:
-        print('y zmieniło wartość, to już nie 2 ale', y)
-        if x == 1 and y <= 10:
-            print('ale y jest nadal mniejsze od 10.')
-else:
-    print('x zmieniło wartość, to już nie 1 ale', x)
-    print('do y w ogóle tu nie docieramy. Zmień x na 1 aby dotrzeć do rozwidlenia z x.')
+# if x == 1:
+#     print(x)
+#     if y == 2:
+#         print(y)
+#     elif x+y > 2:
+#         print('y zmieniło wartość, to już nie 2 ale', y)
+#         if x == 1 and y <= 10:
+#             print('ale y jest nadal mniejsze od 10.')
+# else:
+#     print('x zmieniło wartość, to już nie 1 ale', x)
+#     print('do y w ogóle tu nie docieramy. Zmień x na 1 aby dotrzeć do rozwidlenia z x.')
+
+#------------------------------------------------------
+# lista = list(range(1,,2))
+# print (lista)
+
+#print (int(20%8))
+
+#------------------------------------------------------
+import pandas as pd
+import numpy as np
+
+def sito(n):
+    kandydat = [1 for x in range(n+1)]
+    pierwsze = []
+    for i in range(2,n+1):
+        if kandydat[i] != 0:
+            pierwsze.append(i)
+            for j in range(i+i,n+1,i):
+                kandydat[j]=0
+    return pierwsze
+
+#print(sito(n+1))
+#print(sito(17))
+
