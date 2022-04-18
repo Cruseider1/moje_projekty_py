@@ -80,3 +80,18 @@
 #     print(c.upper()) #wyświetla listę ze słowa mielonka dużymi literami
 
 #------------------------------------------------------
+
+# kwadraty = []
+
+# for x in [1,2,3,4,5]:  #nie zapominaj o dwukropku po funkcji!
+#     kwadraty.append(x**2)
+# print(kwadraty)
+
+#------------------------------------------------------
+
+# f = open('data.txt', 'w') #tworzenie nowego pliku w trybie do odczytu
+# f.write('siema')
+# f.close
+
+# print(f)
+
