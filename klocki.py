@@ -59,8 +59,24 @@
 
 #------------------------------------------------------
 
-X = ['aa','bb','cc']
-X.reverse()
+# X = ['aa','bb','cc']
+# X.reverse() # sort
 
-print(X)
+# print(X)
 
+#------------------------------------------------------
+
+# D = {} #stworzenie klucza jako set
+# D['imie'] = 'Robert'  
+# D['wiek'] = '40'
+# D['zawod'] = 'stolarz' # przypisanie do klucza tych wszystkich wartosci 
+
+# print(D)
+
+#------------------------------------------------------
+# M = list('mielonka')
+
+# for c in M:
+#     print(c.upper()) #wyświetla listę ze słowa mielonka dużymi literami
+
+#------------------------------------------------------
