@@ -50,19 +50,9 @@
 #print (int(20%8))
 
 #------------------------------------------------------
-import pandas as pd
-import numpy as np
 
-def sito(n):
-    kandydat = [1 for x in range(n+1)]
-    pierwsze = []
-    for i in range(2,n+1):
-        if kandydat[i] != 0:
-            pierwsze.append(i)
-            for j in range(i+i,n+1,i):
-                kandydat[j]=0
-    return pierwsze
+M = [[1,2,3],   #przecinki muszą być po nawiasie oddzielającym jedną listę od drugiej
+    [4,5,6],
+    [7,8,9]]
 
-#print(sito(n+1))
-#print(sito(17))
-
+print(M(1))
