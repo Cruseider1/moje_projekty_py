@@ -1,18 +1,18 @@
-class pracownik:
-    def __init__(self,name,pay):
-        self.name = name
-        self.pay = pay
-    def lastName(self):
-        return self.name.split()[-1]
-    def giveRaise(self,percent):
-        self.pay += (1.0 + percent)
+# class pracownik:   #zdefiniowana nowa klasa własna
+#     def __init__(self,name,pay):
+#         self.name = name  #self jako nowy obiekt  a name i pay jako atrybuty tej klasy 
+#         self.pay = pay
+#     def lastName(self):
+#         return self.name.split()[-1] #tego nie wiem jeszcze....
+#     def giveRaise(self,percent): #zdefiniowana funkcja dawania podwyżki
+#         self.pay += (1.0 + percent) #uaktualnienie płacy
 
-bob = pracownik('Robert Zielony', 5000)
-anna = pracownik('Anna Czerwona', 6000)
+# bob = pracownik('Robert Zielony', 5000) #utworzenie obiektów każdy ma atrybuty imię, nazwisko i płaca
+# anna = pracownik('Anna Czerwona', 6000)
 
-print(bob.lastName())
-print(anna.lastName())
+# print(bob.lastName()) #wywołanie metody self
+# print(anna.lastName())
 
-anna.giveRaise(10)
+# anna.giveRaise(10)#uaktualnienie płacy anny
 
-print(anna.pay)
+# print(anna.pay)
