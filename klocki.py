@@ -51,8 +51,16 @@
 
 #------------------------------------------------------
 
-M = [[1,2,3],   #przecinki muszą być po nawiasie oddzielającym jedną listę od drugiej
-    [4,5,6],
-    [7,8,9]]
+# M = [[1,2,3],   #przecinki muszą być po nawiasie oddzielającym jedną listę od drugiej
+#     [4,5,6],
+#     [7,8,9]]
 
-print(M(1))
+# print(M[1][2]) #indeks zawsze wrzucamy w nawiasy kwadratowe #drugi element zwraca wartość indeksu 2 w macierzy 1
+
+#------------------------------------------------------
+
+X = ['aa','bb','cc']
+X.reverse()
+
+print(X)
+
