@@ -50,7 +50,7 @@
 #print (int(20%8))
 
 #------------------------------------------------------
-
+#MACIERZE
 # M = [[1,2,3],   #przecinki muszą być po nawiasie oddzielającym jedną listę od drugiej
 #     [4,5,6],
 #     [7,8,9]]
@@ -58,14 +58,14 @@
 # print(M[1][2]) #indeks zawsze wrzucamy w nawiasy kwadratowe #drugi element zwraca wartość indeksu 2 w macierzy 1
 
 #------------------------------------------------------
-
+#SORTOWANIE
 # X = ['aa','bb','cc']
 # X.reverse() # sort
 
 # print(X)
 
 #------------------------------------------------------
-
+#TWORZENIE KLUCZY SETÓW
 # D = {} #stworzenie klucza jako set
 # D['imie'] = 'Robert'  
 # D['wiek'] = '40'
@@ -80,7 +80,7 @@
 #     print(c.upper()) #wyświetla listę ze słowa mielonka dużymi literami
 
 #------------------------------------------------------
-
+#MATMA - POTĘGOWANIE I DODAWANIE DO ZBIORU
 # kwadraty = []
 
 # for x in [1,2,3,4,5]:  #nie zapominaj o dwukropku po funkcji!
@@ -88,7 +88,7 @@
 # print(kwadraty)
 
 #------------------------------------------------------
-
+#tWORZENIE PLIKÓW
 # f = open('data.txt', 'w') #tworzenie nowego pliku w trybie do odczytu
 # f.write('siema')
 # f.close
@@ -96,4 +96,41 @@
 # help(f)
 
 #------------------------------------------------------
+#WARUNKI
+# x = int(input()) #warunek 
 
+# if x == 1:
+#     print('tak': x)
+# else: print('nie')
+#------------------------------------------------------
+# x = None #typ boola
+
+# print(bool(x))
+#------------------------------------------------------
+# x = True  #warunki i typy cz. 2
+# print(x)
+# print(type(x))
+
+#------------------------------------------------------
+
+# wartosc = 1.0 # 0.0000000001
+# if wartosc:
+#     print('warunek spełniony')
+
+#------------------------------------------------------
+#PORÓWNYWANIE WARUNKÓW
+# a = 1
+# b = 2
+# c = 3
+# d = [1,2,3,4]
+
+# if a in d:
+#     print('tak to:', b) #żeby przywołać zmienna tu musi być przecinek
+
+#------------------------------------------------------
+
+# lista = ['a','a','a','b','b','b','b','c','c','c','c','d','d','d','e']
+# lista2 = lista.extend('x')
+# print(lista[2])
+#print(lista[::-1])  #wyświetla listę w odwróconej kolejności 
+# print(len(lista))
